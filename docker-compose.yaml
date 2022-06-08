@@ -1,0 +1,10 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:alpine
+    environment:
+      POSTGRES_PASSWORD: eoJmwTzkqvPmvBXNyE0y5luzUxn8t8pu
+      POSTGRES_USER: docker
+    ports:
+      - "5432:5432"
+      

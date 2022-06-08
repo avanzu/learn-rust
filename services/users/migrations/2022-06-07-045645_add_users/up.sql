@@ -1,0 +1,9 @@
+CREATE TABLE users (
+  id SERIAL NOT NULL PRIMARY KEY,
+  first_name VARCHAR(255) NULL,
+  last_name VARCHAR(255) NULL,
+  username VARCHAR(128) NOT NULL,
+  email TEXT NOT NULL,
+  passwd TEXT NOT NULL,
+  created_at TIMESTAMP NOT NULL
+);
